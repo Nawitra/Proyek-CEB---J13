@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+#tentang {  
+    display: block;
+    text-align: center;
+}
+
+#tentang p{
+    width: 50%;
+    margin: 0 auto;
+}
