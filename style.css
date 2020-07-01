@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    background-color: #95a5a6;
+    color: #fff;
+    height: 90px;
+}
