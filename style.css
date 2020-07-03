@@ -20,6 +20,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 10;
+    
 }
 
 .header-logo {
@@ -28,6 +29,15 @@ header {
     padding: 25px 60px;
 
 }
+.fa{
+    margin-right: 5px;
+}
+.menu-icon {
+    color: white;
+    float: right;
+    padding: 30px 2px;
+    display: none;
+  }
 
 .header-right a{
     float: right;
@@ -131,11 +141,15 @@ header {
     text-align: center;
 }
 
+.container{
+    margin-top: 35px;
+}
+
 .heading {
-    margin-top: 60px;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding: 1px 0px;
     color: #5f5d60;
+    text-align: center;
+    
 }
   
 .heading h2 {
@@ -179,3 +193,53 @@ footer p {
     padding-top: 25px;
     /* padding-right: 50px; */
 }
+
+@media (max-width: 850px) {
+    #tentang p{
+        width: 70%;
+    }
+    .profile-wrapper{
+        background-color: #e7e7e7;
+        height: 2172px;
+        text-align: center;
+        
+    }
+    .profile{
+      width:50%;
+      margin-bottom:50px;
+    }
+    
+  }
+  @media (max-width: 600px) {
+    #tentang h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .profile-wrapper{
+        background-color: #e7e7e7;
+        height: 3615px;
+        text-align: center;
+        
+    }
+    .profile{
+      width:100%;
+      margin-bottom:50px;
+    }
+    .main-plus-wrap{
+        width: 100%;
+    }
+    .slide-container{
+        width: 332.067px;
+        height: 220px;
+        margin: 0 auto;
+    }
+    .header-right{
+        padding: 30px 2px;
+        display:none;
+      }
+      
+      .menu-icon {
+          display: inline;
+      }
+
+  }
