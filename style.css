@@ -18,6 +18,11 @@
     margin: 0 auto;
 }
 
+.slideshow-wrapper {
+    clear: both;
+    padding-top: 20px;
+}
+
 .main-plus-wrap{
     padding-top: 30px;
     margin: 0 auto;
@@ -76,4 +81,46 @@
 
 #slide-it-3:target ~ #slide-it{
     transform: translateX(-200%);
+}
+
+.profile-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+  
+.heading h2 {
+    font-weight: bold;
+}
+  
+.profile {
+    float: left;
+    width: 20%;
+}
+ 
+.profile-image {
+    max-width: 100%;
+}
+
+.profile-image p {
+    top: 90px;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+}
+  
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #000000;
 }
